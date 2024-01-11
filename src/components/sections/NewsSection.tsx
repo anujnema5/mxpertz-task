@@ -5,7 +5,7 @@ import { reviews } from '@/data/ratingData'
 import { TEventBox } from '@/lib/types/types';
 import { StarIcon } from '@heroicons/react/24/solid';
 import React from 'react'
-import MarginWrapper from '../Wrapper/MarginWrapper';
+import MarginWrapper from '../utils/MarginWrapper';
 import { news } from '@/data/pagesData';
 import Image from 'next/image';
 

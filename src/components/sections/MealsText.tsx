@@ -23,7 +23,7 @@
 
 
 import React from 'react'
-import MarginWrapper from '../Wrapper/MarginWrapper'
+import MarginWrapper from '../utils/MarginWrapper'
 import { mealsText } from '@/data/pagesData'
 
 const MealsText = () => {

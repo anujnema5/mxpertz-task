@@ -1,5 +1,5 @@
 import React from 'react'
-import HoursOperation from '../Wrapper/HoursOperation'
+import HoursOperation from '../utils/HoursOperation'
 import { daysAndTimings } from '@/data/Operations'
 import { TDayTiming } from '@/lib/types/types'
 import Button from '../ui/Button'
@@ -36,8 +36,6 @@ const Contact = () => {
                         <div className='w-full h-full flex flex-col py-20 items-center'>
                             <h3 className='text-2xl font-semibold text-gray-200'>Drop Us a Line</h3>
                             <p className='w-8/12 text-center text-sm text-gray-100 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, asperiores.</p>
-
-                            {/* <button className='bg-[#c39d63] px-5 py-0.5 mt-6 text-gray-200 uppercase'>Contact us</button> */}
                             <Button className='px-8 py-0' text='Contact us' />
 
 
@@ -51,7 +49,6 @@ const Contact = () => {
                                     <input type="text" className='text-gray-400  w-10/12 outline-none bg-zinc-900 px-3 py-1 placeholder:text-gray-500' placeholder='Last Name ' />
                                     <input type="email" className='text-gray-400 outline-none w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-500' placeholder='Email' />
                                     <button className='bg-[#c39d63] px-5 w-10/12 py-1 outline-none uppercase text-gray-200'>Contact us</button>
-                                    {/* <Button className='px-8 py-0 w-10/12' text='Contact us' /> */}
 
                                 </form>
                             </div>
