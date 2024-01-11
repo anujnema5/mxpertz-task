@@ -21,13 +21,13 @@ const Contact = () => {
                                         <span>{daysTiming.timings}</span>
                                         {daysTiming?.eveningTimings && <span>{daysTiming.eveningTimings}</span>}
 
-                                        {daysAndTimings.length - 1 !== i && <div className='w-full h-0.5 bg-yellow-500 mb-3'></div>}
+                                        {daysAndTimings.length - 1 !== i && <div className='w-full h-0.5 bg-[#c39d63] mb-3'></div>}
                                     </div>
                                 ))}
                             </div>
 
 
-                            <button className='bg-yellow-600 px-5 py-1 mt-8 text-gray-200'>Make a Reservation</button>
+                            <button className='bg-[#c39d63] px-5 py-1 mt-8 text-gray-200'>Make a Reservation</button>
                         </div>
                     </HoursOperation>
 
@@ -37,7 +37,7 @@ const Contact = () => {
                             <h3 className='text-2xl font-semibold text-gray-200'>Drop Us a Line</h3>
                             <p className='w-8/12 text-center text-sm text-gray-100 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, asperiores.</p>
 
-                            <button className='bg-yellow-600 px-5 py-0.5 mt-6 text-gray-200 uppercase'>Contact us</button>
+                            <button className='bg-[#c39d63] px-5 py-0.5 mt-6 text-gray-200 uppercase'>Contact us</button>
 
 
                             <div className='w-full flex flex-col justify-center gap-1 items-center mt-16 '>
@@ -48,7 +48,7 @@ const Contact = () => {
                                     <input type="text" className='w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-100' placeholder='First Name' />
                                     <input type="text" className='w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-100' placeholder='Last Name' />
                                     <input type="email" className='w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-100' placeholder='Email' />
-                                    <button className='bg-yellow-600 px-5 py-1 uppercase text-gray-200'>Contact us</button>
+                                    <button className='bg-[#c39d63] px-5 py-1 uppercase text-gray-200'>Contact us</button>
                                 </form>
                             </div>
                         </div>

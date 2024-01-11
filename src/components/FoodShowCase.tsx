@@ -14,7 +14,7 @@ const FoodShowCase = () => {
                         } else {
                             return (
                                 <div className='w-full h-72 bg-gray-300 flex flex-col gap-3 items-center text-center justify-center'>
-                                    <span className='text-xl font-semibold text-yellow-700'>{elem.price}</span>
+                                    <span className='text-xl font-semibold text-[#c39d63]'>{elem.price}</span>
                                     <span className='text-lg font-semibold'>{elem.title}</span>
                                     <span className='text-gray-700 font-medium w-10/12'>{elem.description}</span>
                                 </div>
