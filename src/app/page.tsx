@@ -1,10 +1,10 @@
-import Contact from '@/components/Contact'
-import FoodShowCase from '@/components/FoodShowCase'
-import HeroSection from '@/components/HeroSection'
-import MealsText from '@/components/MealsText'
-import NewsSection from '@/components/NewsSection'
-import StoryScreen from '@/components/StoryScreen'
-import Testimonial from '@/components/Testimonial'
+import Contact from '@/components/sections/Contact'
+import FoodShowCase from '@/components/sections/FoodShowCase'
+import HeroSection from '@/components/sections/HeroSection'
+import MealsText from '@/components/sections/MealsText'
+import NewsSection from '@/components/sections/NewsSection'
+import StoryScreen from '@/components/sections/StoryScreen'
+import Testimonial from '@/components/sections/Testimonial'
 import Image from 'next/image'
 
 export default function Home() {

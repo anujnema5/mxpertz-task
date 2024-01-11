@@ -5,22 +5,15 @@ import { reviews } from '@/data/ratingData'
 import { TEventBox } from '@/lib/types/types';
 import { StarIcon } from '@heroicons/react/24/solid';
 import React from 'react'
-import MarginWrapper from './utils/MarginWrapper';
+import MarginWrapper from '../Wrapper/MarginWrapper';
 
 const NewsSection = () => {
     return (
-        <MarginWrapper className='relative bg-gray-300 gap-8'>
-            <div className='flex flex-col gap-3 justify-center items-center'>
-                <h5 className='uppercase text-gray-500 font-bold text-sm'>Don't Miss</h5>
-                <div className='h-1 bg-[#c39d63] w-20'></div>
-            </div>
+        <MarginWrapper className='relative bg-gray-300 gap-8' tagText={'Dont miss'} sectionHeading='Our News event'>
 
+            <p className='w-7/12 text-center text-gray-700 mt-7'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores soluta id quia accusantium vel voluptate quisquam, rerum porro molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, mollitia.</p>
 
-            <h3 className='text-5xl font-semibold text-gray-700 my-3'>Our News Events</h3>
-
-            <p className='w-7/12 text-center text-gray-700'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores soluta id quia accusantium vel voluptate quisquam, rerum porro molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, mollitia.</p>
-
-            <div className='text-center flex gap-6 items-center justify-center w-8/12'>
+            <div className=' text-center flex gap-6 items-center justify-center w-9/12 mt-12'>
                 {
                     eventBox?.map((event: TEventBox) => (
                         <div className='bg-white rounded-xl flex flex-col items-start gap-7 justify-center w-full text-left'>

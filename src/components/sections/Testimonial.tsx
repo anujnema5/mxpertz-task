@@ -44,17 +44,16 @@
 import { reviews } from '@/data/ratingData'
 import { StarIcon } from '@heroicons/react/24/solid';
 import React from 'react'
-import MarginWrapper from './utils/MarginWrapper';
+import MarginWrapper from '../Wrapper/MarginWrapper';
+import Tag from '../ui/Tag';
 
 const Testimonial = () => {
     return (
-        <MarginWrapper>
-            <div className='flex flex-col gap-3 justify-center items-center'>
-                <h5 className='uppercase text-gray-500 font-bold text-sm'>Only the best</h5>
-                <div className='h-1 bg-[#c39d63] w-20'></div>
-            </div>
-
-            <h3 className='text-5xl font-semibold text-gray-700 my-3'>What people are Saying</h3>
+        <MarginWrapper 
+        tagText='Only the best'
+        width='50px'
+        sectionHeading='What people are saying'
+        >
 
             <div className='text-center flex gap-6 items-center justify-center w-10/12 mt-5'>
                 {

@@ -23,21 +23,22 @@
 
 
 import React from 'react'
-import MarginWrapper from './utils/MarginWrapper'
+import MarginWrapper from '../Wrapper/MarginWrapper'
+import { mealsText } from '@/data/pagesData'
 
 const MealsText = () => {
     return (
-        <MarginWrapper className='bg-gray-300'>
-                <div className='flex flex-col gap-3 justify-center items-center'>
-                    <h5 className='uppercase text-gray-500 font-bold text-sm'>Only the best</h5>
-                    <div className='h-1 bg-[#c39d63] w-20'></div>
-                </div>
+        <MarginWrapper className='bg-gray-300' 
+        tagText={mealsText.tag} 
+        sectionHeading={mealsText.heading} 
+        sectionDescription={mealsText.desc}
+        >
 
-                <div className='text-center  flex flex-col items-center justify-center w-10/12'>
-                    <h3 className='text-5xl font-semibold my-12 text-gray-800'>Fresh Ingridient, Tasty Meals</h3>
-                    <p className='w-8/12 text-gray-600 font-semibold'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure tempora corporis voluptatem reprehenderit nesciunt quaerat est assumenda delectus? Quibusdam amet impedit ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, tenetur? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                {/* <div className='text-center  flex flex-col items-center justify-center w-10/12'>
+                    <h3 className='text-5xl font-semibold my-12 text-gray-800'>{mealsText.heading}</h3>
+                    <p className='w-8/12 text-gray-600 font-semibold'>{mealsText.desc}</p>
+                </div> */}
                     <button className='uppercase text-gray-100 bg-[#c39d63] px-10 py-2 mt-10'>View Items</button>
-                </div>
         </MarginWrapper>
             
     )

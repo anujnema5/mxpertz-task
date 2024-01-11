@@ -1,5 +1,5 @@
 import React from 'react'
-import HoursOperation from './HoursOperation'
+import HoursOperation from '../Wrapper/HoursOperation'
 import { daysAndTimings } from '@/data/Operations'
 import { TDayTiming } from '@/lib/types/types'
 

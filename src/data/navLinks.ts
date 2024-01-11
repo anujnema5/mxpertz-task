@@ -10,5 +10,5 @@ export const navLinks: TNavLink[] = [
     {href: '/', title: "About"},
     {href: '/', title: "Team"},
     {href: '/', title: "Contact"},
-    {icon : RiShoppingCart2Fill}
+    {icon : RiShoppingCart2Fill, id: '1'}
 ]

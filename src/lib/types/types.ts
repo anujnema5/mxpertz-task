@@ -2,6 +2,7 @@ export type TNavLink = {
     href?: string;
     title?: string;
     icon?: any;
+    id?: string
 }
 
 export type TEventBox = {
