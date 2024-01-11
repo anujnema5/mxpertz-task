@@ -37,3 +37,4 @@ export type FoodImage = {
 
 export type FoodShowCaseItem = FoodItem | FoodImage;
 
+export type IconType = React.ComponentType;
