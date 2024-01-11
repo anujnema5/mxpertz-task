@@ -1,7 +1,8 @@
 type sectionData = {
     heading: string,
     desc?: string,
-    tag?: any
+    tag?: any,
+    img?: any
 }
 
 export const headerData: sectionData = {
@@ -11,8 +12,8 @@ export const headerData: sectionData = {
 
 export const storyData: sectionData = {
     heading: 'Welcome To Royal',
-    
-    tag: 'Our Story'
+    tag: 'Our Story',
+    img: 'https://bytesfood.in/wp-content/uploads/2023/08/Farm-to-table-28.png'
 }
 
 
