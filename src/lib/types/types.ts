@@ -1,7 +1,7 @@
 export type TNavLink = {
     href?: string;
     title?: string;
-    icon?: React.FunctionComponent;
+    icon?: any;
 }
 
 export type TEventBox = {

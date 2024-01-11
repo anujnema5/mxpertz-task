@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'food-image': "url('https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=sph')"
+        'food-image': "url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/restaurant-hero-01.jpg')"
       },
     },
   },

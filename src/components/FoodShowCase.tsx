@@ -3,13 +3,13 @@ import React from 'react'
 
 const FoodShowCase = () => {
     return (
-        <div className='w-screen flex flex-col justify-center items-center bg-slate-800'>
+        <div className='w-screen flex flex-col justify-center items-center bg-zinc-800'>
             <div className='grid grid-cols-3 w-10/12'>
                 {
                     foodShowCase?.map((elem: any) => {
                         if (elem.img) {
                             return (
-                                <div className='w-full h-72 bg-gray-600 flex flex-col gap-3 items-center text-center justify-center'>{elem.img}</div>
+                                <div className='w-full h-72 bg-gray-600 flex flex-col gap-3 items-center text-center justify-center text-white'>{elem.img}</div>
                             )
                         } else {
                             return (

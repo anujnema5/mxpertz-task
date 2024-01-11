@@ -8,17 +8,17 @@ const Navbar = () => {
         <div className='w-screen flex justify-between items-center min-h-20 px-10'>
             <h1 className='text-2xl text-gray-800 font-semibold'>Restaurant Landing Page</h1>
 
-            <ul className='flex gap-3'>
+            <ul className='flex gap-5 items-center justify-center'>
                 {
                     navLinks?.map((link: TNavLink) => {
                         if(link.icon) {
                             return (
-                                <link.icon/>
+                                <link.icon width={18}/>
                             )
                         } else {
 
                             return (
-                            <li>{link.title}</li>
+                            <li className='text-sm font-semibold text-gray-800'>{link.title}</li>
                         )}
                         
                     })

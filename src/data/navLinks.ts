@@ -1,5 +1,5 @@
 import { TNavLink } from "@/lib/types/types";
-import { ShoppingCartIcon } from '@heroicons/react/24/solid'
+import { RiShoppingCart2Fill } from "@remixicon/react";
 
 export const navLinks: TNavLink[] = [
     {href: '/', title: "Loading"},
@@ -10,5 +10,5 @@ export const navLinks: TNavLink[] = [
     {href: '/', title: "About"},
     {href: '/', title: "Team"},
     {href: '/', title: "Contact"},
-    {icon : ShoppingCartIcon},
+    {icon : RiShoppingCart2Fill}
 ]

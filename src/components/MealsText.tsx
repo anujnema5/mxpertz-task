@@ -2,7 +2,7 @@ import React from 'react'
 
 const MealsText = () => {
     return (
-        <div className='w-full h-full flex items-center justify-center'>
+        <div className='w-full h-full flex items-center justify-center bg-gray-200'>
             <div className='my-28 flex flex-col items-center justify-center'>
                 <div className='flex flex-col gap-3 justify-center items-center'>
                     <h5 className='uppercase text-gray-500 font-bold text-sm'>Only the best</h5>
