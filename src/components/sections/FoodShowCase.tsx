@@ -1,4 +1,5 @@
 import { foodShowCase } from '@/data/foodShowcase'
+import { FoodShowCaseItem } from '@/lib/types/types'
 import Image from 'next/image'
 import React from 'react'
 
@@ -10,7 +11,7 @@ const FoodShowCase = () => {
                     foodShowCase?.map((elem: any) => {
                         if (elem.img) {
                             return (
-                                <div className='w-full h-full flex flex-col gap-3 items-center text-center justify-center text-white'>
+                                <div key={elem.title} className='w-full h-full flex flex-col gap-3 items-center text-center justify-center text-white'>
                                     <Image alt='food-images' width={1000} height={1000} className='w-full h-full object-cover' src={'https://cdn2.foodviva.com/static-content/food-images/snacks-recipes/khaman-dhokla-recipe/khaman-dhokla-recipe.jpg'}/>
                                 </div>
                             )

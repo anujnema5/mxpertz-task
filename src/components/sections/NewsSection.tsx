@@ -14,8 +14,8 @@ const NewsSection = () => {
         <MarginWrapper className='relative bg-gradient-to-br from-gray-50 via-gray-100 to-gray-300' tagText={'Dont miss'} sectionDescription={news.desc} sectionHeading={news.heading} buttonText='Reservation'>
             <div className=' text-center flex gap-10 items-start justify-center w-10/12 mt-7'>
                 {
-                    eventBox?.map((event: TEventBox) => (
-                        <div className='bg-white flex flex-col items-start gap-0 justify-center duration-300 ease-in-out transition-all cursor-pointer hover:scale-105 w-full text-left'>
+                    eventBox?.map((event: TEventBox, i) => (
+                        <div key={i} className='bg-white flex flex-col items-start gap-0 justify-center duration-300 ease-in-out transition-all cursor-pointer hover:scale-105 w-full text-left'>
                             <div className="image h-48 border flex flex-col items-center justify-center  w-full">
                                 <Image src={event.img} alt='thumbnail' width={1000} height={1000} className='w-full h-full'/>
                                 </div>

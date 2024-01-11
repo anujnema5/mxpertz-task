@@ -17,3 +17,23 @@ export type TDayTiming = {
     timings: string[];
     eveningTimings?: string[]
 };
+
+export type Review = {
+    rating: number;
+    title: string;
+    description: string;
+    tag: string;
+};
+
+export type FoodItem = {
+    price: string;
+    title: string;
+    description: string;
+};
+
+export type FoodImage = {
+    img: string;
+};
+
+export type FoodShowCaseItem = FoodItem | FoodImage;
+

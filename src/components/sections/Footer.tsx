@@ -10,8 +10,8 @@ const Footer = () => {
 
             <div className='flex gap-3'>
                 {
-                    socialICons?.map((Icon: any) => (
-                        <Icon />
+                    socialICons?.map((Icon: any, i) => (
+                        <Icon key={i}/>
                     ))
                 }
             </div>

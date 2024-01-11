@@ -17,7 +17,7 @@ const Contact = () => {
 
                             <div className="timings mt-8  w-9/12">
                                 {daysAndTimings?.map((daysTiming: TDayTiming, i) => (
-                                    <div className='flex text-xs flex-col gap-3 text-center font-semibold text-white'>
+                                    <div key={daysTiming.days} className='flex text-xs flex-col gap-3 text-center font-semibold text-white'>
                                         <span className=''>{daysTiming.days}</span>
                                         <span>{daysTiming.timings}</span>
                                         {daysTiming?.eveningTimings && <span>{daysTiming.eveningTimings}</span>}

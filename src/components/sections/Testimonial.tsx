@@ -47,6 +47,7 @@ import React from 'react'
 import MarginWrapper from '../Wrapper/MarginWrapper';
 import Tag from '../ui/Tag';
 import { testimonial } from '@/data/pagesData';
+import { Review } from '@/lib/types/types';
 
 const Testimonial = () => {
     return (
@@ -57,12 +58,12 @@ const Testimonial = () => {
 
             <div className='text-center flex gap-6 items-center justify-center w-10/12'>
                 {
-                    reviews?.map((review: any) => {
+                    reviews?.map((review: Review) => {
                         const stars = new Array(review.rating).fill(0);
                         return (
-                            <div className='w-full h-ful flex flex-col items-start justify-center gap-5 text-left'>
+                            <div key={review.title} className='w-full h-ful flex flex-col items-start justify-center gap-5 text-left'>
                                 <div className='flex w-32 h-32'>
-                                    {stars?.map(() => (<StarIcon className='text-[#c39d63]' />))}</div>
+                                    {stars?.map((_, i) => (<StarIcon key={i} className='text-[#c39d63]' />))}</div>
 
                                 <span className='text-3xl text-gray-800 font-medium -mt-8'>{review.title}</span>
                                 <span className='text-gray-700 w-10/12'>{review.description}</span>
