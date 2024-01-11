@@ -1,6 +1,7 @@
 'use client'
 import { headerData } from '@/data/pagesData'
 import { ArrowDownIcon } from '@heroicons/react/24/solid'
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
@@ -20,7 +21,9 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <ArrowDownIcon onClick={()=>route.push("#foodshowcase")} className='text-center cursor-pointer font-semibold w-6 h-6 mt-20 absolute -translate-x-1/2 -translate-y-1/2 top-[72%] text-gray-300'/>
+            <Link href={'#foodshowcase'} scroll>
+            <ArrowDownIcon className='text-center cursor-pointer font-semibold w-6 h-6 mt-20 absolute -translate-x-1/2 -translate-y-1/2 top-[72%] text-gray-300'/>
+            </Link>
         </div>
     </div>
   )

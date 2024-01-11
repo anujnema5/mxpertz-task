@@ -32,3 +32,7 @@ export const news: sectionData = {
     tag: `Testimonial`,
     desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et optio dolorem incidunt! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et optio dolorem incidunt! '
 }
+
+export const contact = {
+    
+}

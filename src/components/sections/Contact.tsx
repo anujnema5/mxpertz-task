@@ -2,6 +2,7 @@ import React from 'react'
 import HoursOperation from '../Wrapper/HoursOperation'
 import { daysAndTimings } from '@/data/Operations'
 import { TDayTiming } from '@/lib/types/types'
+import Button from '../ui/Button'
 
 const Contact = () => {
     return (
@@ -26,8 +27,7 @@ const Contact = () => {
                                 ))}
                             </div>
 
-
-                            <button className='bg-[#c39d63] px-5 py-1 mt-8 text-gray-200'>Make a Reservation</button>
+                            <Button className='px-8 py-0' text='Make a Reservation' />
                         </div>
                     </HoursOperation>
 
@@ -37,18 +37,22 @@ const Contact = () => {
                             <h3 className='text-2xl font-semibold text-gray-200'>Drop Us a Line</h3>
                             <p className='w-8/12 text-center text-sm text-gray-100 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, asperiores.</p>
 
-                            <button className='bg-[#c39d63] px-5 py-0.5 mt-6 text-gray-200 uppercase'>Contact us</button>
+                            {/* <button className='bg-[#c39d63] px-5 py-0.5 mt-6 text-gray-200 uppercase'>Contact us</button> */}
+                            <Button className='px-8 py-0' text='Contact us' />
+
 
 
                             <div className='w-full flex flex-col justify-center gap-1 items-center mt-16 '>
                                 <h4 className='text-lg text-gray-100 font-medium'>Our Newsletter</h4>
                                 <span className='w-10/12 text-center text-sm text-gray-300'>Lorem ipsum dolor. dolor sit amet consectetur</span>
-                                
+
                                 <form action="" className='flex flex-col gap-4 items-center justify-center w-full mt-6'>
-                                    <input type="text" className='w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-100' placeholder='First Name' />
-                                    <input type="text" className='w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-100' placeholder='Last Name' />
-                                    <input type="email" className='w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-100' placeholder='Email' />
-                                    <button className='bg-[#c39d63] px-5 py-1 uppercase text-gray-200'>Contact us</button>
+                                    <input type="text" className='text-gray-400 w-10/12 outline-none bg-zinc-900 px-3 py-1 placeholder:text-gray-500' placeholder='First Name' />
+                                    <input type="text" className='text-gray-400  w-10/12 outline-none bg-zinc-900 px-3 py-1 placeholder:text-gray-500' placeholder='Last Name ' />
+                                    <input type="email" className='text-gray-400 outline-none w-10/12 bg-zinc-900 px-3 py-1 placeholder:text-gray-500' placeholder='Email' />
+                                    <button className='bg-[#c39d63] px-5 w-10/12 py-1 outline-none uppercase text-gray-200'>Contact us</button>
+                                    {/* <Button className='px-8 py-0 w-10/12' text='Contact us' /> */}
+
                                 </form>
                             </div>
                         </div>
