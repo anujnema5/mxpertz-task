@@ -6,7 +6,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='w-screen flex justify-between fixed top-0 left-0 bg-white z-50 items-center min-h-20 px-10'>
+        <div className='w-screen flex justify-between fixed top-0 left-0 bg-white z-50 items-center min-h-[4.3rem] px-14'>
             <h1 className='text-2xl text-gray-800 font-semibold'>
                 <Link href={'/'}>{siteMetadata.headerTitle}</Link>
                 

@@ -9,7 +9,7 @@ const HeroSection = () => {
   const route = useRouter();
 
   return (
-    <div className='relative w-full h-[30rem] flex items-center justify-center  top-20 bg-food-image bg-cover bg-no-repeat bg-center'>
+    <div className='relative w-full h-[30rem] flex items-center justify-center  top-16 bg-food-image bg-cover bg-no-repeat bg-center'>
         <div className='overlay w-full h-full bg-zinc-900/80 absolute top-0 left-0 flex flex-col items-center justify-center'>
             <div className='flex flex-col gap-10 items-center justify-center w-5/12 text-center text-gray-300'>
                 <h3 className='text-6xl font-semibold'>{headerData.heading}</h3>
