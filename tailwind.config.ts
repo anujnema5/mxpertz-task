@@ -1,3 +1,4 @@
+import { url } from 'inspector'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -9,9 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'food-image': "url('https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704931200&semt=sph')"
       },
     },
   },
