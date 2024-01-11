@@ -4,7 +4,7 @@ import React from 'react'
 
 const FoodShowCase = () => {
     return (
-        <div className='w-screen flex flex-col justify-center items-center bg-zinc-800'>
+        <div id='foodshowcase' className='w-screen flex flex-col justify-center items-center bg-zinc-800'>
             <div className='grid grid-cols-3 w-10/12'>
                 {
                     foodShowCase?.map((elem: any) => {

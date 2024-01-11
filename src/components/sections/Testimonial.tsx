@@ -46,23 +46,23 @@ import { StarIcon } from '@heroicons/react/24/solid';
 import React from 'react'
 import MarginWrapper from '../Wrapper/MarginWrapper';
 import Tag from '../ui/Tag';
+import { testimonial } from '@/data/pagesData';
 
 const Testimonial = () => {
     return (
         <MarginWrapper 
-        tagText='Only the best'
-        width='50px'
-        sectionHeading='What people are saying'
+        tagText={testimonial?.tag}
+        sectionHeading={testimonial?.heading}
         >
 
-            <div className='text-center flex gap-6 items-center justify-center w-10/12 mt-5'>
+            <div className='text-center flex gap-6 items-center justify-center w-10/12'>
                 {
                     reviews?.map((review: any) => {
                         const stars = new Array(review.rating).fill(0);
                         return (
                             <div className='w-full h-ful flex flex-col items-start justify-center gap-5 text-left'>
                                 <div className='flex w-32 h-32'>
-                                    {stars?.map((star) => (<StarIcon className='text-[#c39d63]' />))}</div>
+                                    {stars?.map(() => (<StarIcon className='text-[#c39d63]' />))}</div>
 
                                 <span className='text-3xl text-gray-800 font-medium -mt-8'>{review.title}</span>
                                 <span className='text-gray-700 w-10/12'>{review.description}</span>

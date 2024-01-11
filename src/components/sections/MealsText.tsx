@@ -32,14 +32,7 @@ const MealsText = () => {
         tagText={mealsText.tag} 
         sectionHeading={mealsText.heading} 
         sectionDescription={mealsText.desc}
-        >
-
-                {/* <div className='text-center  flex flex-col items-center justify-center w-10/12'>
-                    <h3 className='text-5xl font-semibold my-12 text-gray-800'>{mealsText.heading}</h3>
-                    <p className='w-8/12 text-gray-600 font-semibold'>{mealsText.desc}</p>
-                </div> */}
-                    <button className='uppercase text-gray-100 bg-[#c39d63] px-10 py-2 mt-10'>View Items</button>
-        </MarginWrapper>
+        buttonText='View Items'></MarginWrapper>
             
     )
 }

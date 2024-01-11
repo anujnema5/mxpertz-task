@@ -1,8 +1,12 @@
+'use client'
 import { headerData } from '@/data/pagesData'
 import { ArrowDownIcon } from '@heroicons/react/24/solid'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 const HeroSection = () => {
+  const route = useRouter();
+
   return (
     <div className='relative w-full h-[30rem] flex items-center justify-center  top-20 bg-food-image bg-cover bg-no-repeat bg-center'>
         <div className='overlay w-full h-full bg-zinc-900/80 absolute top-0 left-0 flex flex-col items-center justify-center'>
@@ -16,7 +20,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <ArrowDownIcon className='text-center font-semibold w-6 h-6 mt-20 absolute -translate-x-1/2 -translate-y-1/2 top-[72%] text-gray-300'/>
+            <ArrowDownIcon onClick={()=>route.push("#foodshowcase")} className='text-center cursor-pointer font-semibold w-6 h-6 mt-20 absolute -translate-x-1/2 -translate-y-1/2 top-[72%] text-gray-300'/>
         </div>
     </div>
   )
