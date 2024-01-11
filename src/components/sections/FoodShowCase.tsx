@@ -12,7 +12,9 @@ const FoodShowCase = () => {
                         if (elem.img) {
                             return (
                                 <div key={elem.title} className='w-full h-full flex flex-col gap-3 items-center text-center justify-center text-white'>
-                                    <Image alt='food-images' width={1000} height={1000} className='w-full h-full object-cover' src={'https://cdn2.foodviva.com/static-content/food-images/snacks-recipes/khaman-dhokla-recipe/khaman-dhokla-recipe.jpg'}/>
+                                    {/* <Image alt='food-images' width={1000} height={1000} className='w-full h-full object-cover' src={'https://cdn2.foodviva.com/static-content/food-images/snacks-recipes/khaman-dhokla-recipe/khaman-dhokla-recipe.jpg'}/> */}
+
+                                    <Image alt='food-images' width={1000} height={1000} className='w-full h-full object-cover' src={elem.img}/>
                                 </div>
                             )
                         } else {

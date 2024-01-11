@@ -8,7 +8,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://www.bigsight.jp/visitor/shop/img/carousel-food-square-01.jpg"
     },
 
     {
@@ -18,7 +18,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://cdn2.foodviva.com/static-content/food-images/snacks-recipes/khaman-dhokla-recipe/khaman-dhokla-recipe.jpg"
     },
 
     {
@@ -28,7 +28,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/t9k2fjl2zca3h4o5sjdr"
     },
 
     {
@@ -38,7 +38,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://content3.jdmagicbox.com/comp/kolkata/l1/033pxx33.xx33.211116161232.x4l1/catalogue/chowman-birati-kolkata-chowman-wiiqayyc15.jpg?clr="
     },
 
     {
@@ -48,7 +48,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://lh3.googleusercontent.com/Tr67uMsS2G_MzqL9V3L3lvK1VVMS6ifd2LygSXaqYBlETD9QbX_KdH7hz9yP-u8sghtMmwMLdhM67COPEK_SbZJ0-U1G9CHb8RFA9nM"
     },
 
     {
@@ -58,7 +58,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-square-FS-0204.jpg"
     },
 
     {
@@ -68,7 +68,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
@@ -78,7 +78,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://images.unsplash.com/photo-1598214886806-c87b84b7078b?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
@@ -88,6 +88,6 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "Image src Todo"
+        img: "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 ]
