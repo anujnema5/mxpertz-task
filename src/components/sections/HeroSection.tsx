@@ -17,8 +17,8 @@ const HeroSection = () => {
                 <p>{headerData.desc}</p>
 
                 <div className='flex items-center justify-center gap-5'>
-                    <button className='border-[3px] px-8 uppercase  py-1.5 duration-300 ease-in-out transition-all cursor-pointer hover:scale-105 tracking-wider text-sm'>View Menu</button>
-                    <button className='uppercase text-gray-100 bg-[#c39d63] px-10 py-2.5 duration-300 ease-in-out transition-all cursor-pointer hover:scale-105 tracking-wider text-sm'>Reservation</button>
+                    <button className='border-[3px] px-8 uppercase  py-2 duration-300 ease-in-out transition-all cursor-pointer hover:scale-105 tracking-wider text-sm'>View Menu</button>
+                    <button className='uppercase border text-gray-100 bg-[#c39d63] px-10 py-2.5 duration-300 ease-in-out transition-all cursor-pointer hover:scale-105 tracking-wider text-sm'>Reservation</button>
                     
                 </div>
             </div>
