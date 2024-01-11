@@ -15,7 +15,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <ArrowDownIcon className='text-center w-8 h-8 mt-20 absolute -translate-x-1/2 -translate-y-1/2 top-[72%] text-gray-300'/>
+            <ArrowDownIcon className='text-center w-6 h-6 mt-20 absolute -translate-x-1/2 -translate-y-1/2 top-[72%] text-gray-300'/>
         </div>
     </div>
   )

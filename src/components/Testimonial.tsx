@@ -24,7 +24,7 @@ const Testimonial = () => {
                                     <div className='flex w-32 h-32'>
                                         {stars?.map((star) => (<StarIcon className='text-yellow-600' />))}</div>
 
-                                        <span className='text-3xl text-gray-800 font-medium'>{review.title}</span>
+                                        <span className='text-3xl text-gray-800 font-medium -mt-8'>{review.title}</span>
                                         <span className='text-gray-700'>{review.description}</span>
 
                                         <span className='text-gray-700'>{review.tag}</span>

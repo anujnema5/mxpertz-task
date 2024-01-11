@@ -10,3 +10,9 @@ export type TEventBox = {
     category : string, 
     description : string
 }
+
+export type TDayTiming = {
+    days: string;
+    timings: string[];
+    eveningTimings?: string[]
+};
