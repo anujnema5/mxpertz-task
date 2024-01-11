@@ -13,7 +13,7 @@ export const headerData: sectionData = {
 export const storyData: sectionData = {
     heading: 'Welcome To Royal',
     tag: 'Our Story',
-    img: 'https://bytesfood.in/wp-content/uploads/2023/08/Farm-to-table-28.png'
+    img: 'https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 }
 
 

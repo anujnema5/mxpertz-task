@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'food-image': "url('https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/restaurant-hero-01.jpg')",
+        'food-image': "url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
         'story-image': "url('https://bytesfood.in/wp-content/uploads/2023/08/Farm-to-table-28.png')"
       },
     },

@@ -8,7 +8,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "https://www.bigsight.jp/visitor/shop/img/carousel-food-square-01.jpg"
+        img: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
@@ -38,7 +38,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "https://content3.jdmagicbox.com/comp/kolkata/l1/033pxx33.xx33.211116161232.x4l1/catalogue/chowman-birati-kolkata-chowman-wiiqayyc15.jpg?clr="
+        img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
@@ -48,7 +48,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "https://lh3.googleusercontent.com/Tr67uMsS2G_MzqL9V3L3lvK1VVMS6ifd2LygSXaqYBlETD9QbX_KdH7hz9yP-u8sghtMmwMLdhM67COPEK_SbZJ0-U1G9CHb8RFA9nM"
+        img: "https://images.unsplash.com/photo-1598532213919-078e54dd1f40?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
@@ -58,7 +58,7 @@ export const foodShowCase: FoodShowCaseItem[] = [
     },
 
     {
-        img: "https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-square-FS-0204.jpg"
+        img: "https://plus.unsplash.com/premium_photo-1664475934279-2631a25c42ce?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
